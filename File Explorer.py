@@ -42,7 +42,9 @@ def main(searchkeyword):
     result = []
 
     #calling search function by passing searchkeyword and system root path as argument
+    log.info("Search Started")  # logging
     search(searchkeyword, "/home/arjun/")
+    log.info("Searching Complete")  # logging
 
     #checking file found or not
     if len(result) == 0:
