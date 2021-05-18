@@ -1,0 +1,497 @@
+17-05-2021 15:08:58,info,SQL object created
+17-05-2021 15:49:31,info,SQL object created
+17-05-2021 15:49:34,info,UCI DB selected
+17-05-2021 15:51:12,info,test4 table displayed
+17-05-2021 15:57:37,info,SQL object created
+17-05-2021 15:57:38,info,UCI DB selected
+17-05-2021 15:57:58,info,test4 table displayed
+17-05-2021 16:01:03,info,SQL object created
+17-05-2021 16:01:04,info,UCI DB selected
+17-05-2021 16:01:05,error,table show error : Unread result found
+17-05-2021 16:04:15,info,SQL object created
+17-05-2021 16:04:16,info,UCI DB selected
+17-05-2021 16:04:36,error,Query not performed : EXEC sp_columns test4 
+17-05-2021 16:05:06,error,Query not performed : EXEC sp_columns test4 
+17-05-2021 16:05:09,info,SQL object created
+17-05-2021 16:05:09,info,UCI DB selected
+17-05-2021 16:05:14,error,Query not performed : EXEC sp_columns test4 
+17-05-2021 16:07:15,info,Query is performed : SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = N'test4'  
+17-05-2021 16:07:28,info,Query is performed : SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test4'  
+17-05-2021 16:07:34,info,SQL object created
+17-05-2021 16:07:34,info,UCI DB selected
+17-05-2021 16:07:38,info,Query is performed : SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test4'  
+17-05-2021 16:12:43,info,SQL object created
+17-05-2021 16:12:44,info,UCI DB selected
+17-05-2021 16:12:47,info,Query is performed : SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test4'  
+17-05-2021 16:16:55,info,test4 table displayed; query = Select * from test4
+17-05-2021 16:18:10,info,SQL object created
+17-05-2021 16:18:10,info,UCI DB selected
+17-05-2021 16:18:13,info,Query is performed : SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test4'  
+17-05-2021 16:18:37,info,SQL object created
+17-05-2021 16:18:38,info,UCI DB selected
+17-05-2021 16:18:43,info,Query is performed : SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test4'  
+17-05-2021 16:19:02,info,SQL object created
+17-05-2021 16:19:03,info,UCI DB selected
+17-05-2021 16:19:07,info,Query is performed : SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test4'  
+17-05-2021 16:21:40,info,SQL object created
+17-05-2021 16:21:41,info,UCI DB selected
+17-05-2021 16:21:43,info,Query is performed : SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test4'  
+17-05-2021 16:27:05,info,SQL object created
+17-05-2021 16:27:06,info,UCI DB selected
+17-05-2021 16:27:08,info,test5 table created with columns: CI_n INT(2),CI_m INT(2),IAC_u VARCHAR(10),IAC_v VARCHAR(10),IAC_w VARCHAR(10),CAC_u VARCHAR(10),CAC_v VARCHAR(10),CAC_w VARCHAR(10)
+17-05-2021 16:28:06,info,carbon_nanotubes.csv file data dumped to test5 table
+17-05-2021 16:28:36,info,test5 table displayed; query = Select * from test5
+17-05-2021 16:28:53,info,columns names displayed
+17-05-2021 16:30:52,info,columns names displayed
+17-05-2021 16:31:40,info,columns names displayed
+17-05-2021 16:31:41,info,test5 table displayed; query = Select * from test5
+17-05-2021 16:33:10,info,columns names displayed
+17-05-2021 16:33:11,info,test5 table displayed; query = Select * from test5
+17-05-2021 16:34:38,info,test5 table displayed; query = Select IAC_u from test5
+17-05-2021 16:35:39,info,test5 table displayed; query = Select DISTINCT CI_n from test5
+17-05-2021 16:36:55,info,test5 table displayed; query = Select IAC_u from test5 where CI_n=2
+17-05-2021 16:37:13,info,test5 table displayed; query = Select IAC_u from test5 where CI_n=2
+17-05-2021 16:37:21,info,test5 table displayed; query = Select IAC_u from test5 where CI_n=2
+17-05-2021 16:39:05,info,test5 table displayed; query = Select IAC_u from test5 where CI_n=2 and CI_n=3
+17-05-2021 16:39:11,info,test5 table displayed; query = Select IAC_u from test5 where CI_n=2 and CI_n=1
+17-05-2021 16:39:22,info,test5 table displayed; query = Select IAC_u from test5 where CI_n=2 and CI_m=1
+17-05-2021 16:39:45,info,test5 table displayed; query = Select CI_n,CI_m,IAC_u from test5 where CI_n=2 and CI_m=1
+17-05-2021 16:39:54,info,test5 table displayed; query = Select CI_n,IAC_u from test5 where CI_n=2
+17-05-2021 16:39:55,info,test5 table displayed; query = Select CI_n,CI_m,IAC_u from test5 where CI_n=2 and CI_m=1
+17-05-2021 16:41:09,info,test5 table displayed; query = Select CI_n,IAC_u from test5 where CI_n=2 or CI_m=3
+17-05-2021 16:41:14,info,test5 table displayed; query = Select CI_n,IAC_u from test5 where CI_n=2 or CI_m=3
+17-05-2021 16:42:14,info,test5 table displayed; query = Select CI_n,IAC_u from test5 where CI_n=2 or CI_n=3
+17-05-2021 16:42:23,info,test5 table displayed; query = Select CI_n,IAC_u from test5 where CI_n=2 or CI_n=3
+17-05-2021 16:42:30,info,test5 table displayed; query = Select CI_n,IAC_u from test5 where CI_n=2 or CI_n=3
+17-05-2021 16:42:35,info,test5 table displayed; query = Select CI_n,IAC_u from test5 where CI_n=2 or CI_n=3
+17-05-2021 16:44:42,info,test5 table displayed; query = Select CI_n,CI_m,IAC_u from test5 where CI_n=2 and NOT CI_m=1
+17-05-2021 16:44:58,info,test5 table displayed; query = Select CI_n,CI_m,IAC_u from test5 where NOT CI_n=2 and  CI_m=1
+17-05-2021 16:45:11,info,test5 table displayed; query = Select CI_n,CI_m,IAC_u from test5 where NOT CI_n=2 and  CI_m=1
+17-05-2021 16:48:08,info,SQL object created
+17-05-2021 16:48:08,info,UCI DB selected
+17-05-2021 16:48:09,info,columns names displayed
+17-05-2021 16:48:12,info,test5 table displayed; query = Select * from test5
+17-05-2021 16:48:13,info,test5 table displayed; query = Select IAC_u from test5
+17-05-2021 16:48:15,info,test5 table displayed; query = Select DISTINCT CI_n from test5
+17-05-2021 16:49:00,info,SQL object created
+17-05-2021 16:49:00,info,UCI DB selected
+17-05-2021 16:49:01,info,columns names displayed
+17-05-2021 16:49:02,info,test5 table displayed; query = Select * from test5
+17-05-2021 16:49:02,info,test5 table displayed; query = Select IAC_u from test5
+17-05-2021 16:49:02,info,test5 table displayed; query = Select DISTINCT CI_n from test5
+17-05-2021 16:49:03,info,test5 table displayed; query = Select CI_n,IAC_u from test5 where CI_n=2
+17-05-2021 16:49:19,info,test5 table displayed; query = Select CI_n,CI_m,IAC_u from test5 where CI_n=2 and CI_m=1
+17-05-2021 16:49:24,info,test5 table displayed; query = Select CI_n,IAC_u from test5 where CI_n=2 or CI_n=3
+17-05-2021 16:49:31,info,test5 table displayed; query = Select CI_n,CI_m,IAC_u from test5 where NOT CI_n=2 and  CI_m=1
+17-05-2021 16:49:53,info,test5 table displayed; query = Select CI_n,CI_m,IAC_u from test5 where NOT CI_n=4 and  CI_m=3
+17-05-2021 16:50:03,info,test5 table displayed; query = Select CI_n,CI_m,IAC_u from test5 where NOT CI_n=4 and  CI_m=3
+17-05-2021 16:51:16,info,test5 table displayed; query = Select CI_n,CI_m,IAC_u from test5 ORDER BY IAC_u
+17-05-2021 16:51:28,info,test5 table displayed; query = Select CI_n,CI_m,IAC_u from test5 ORDER BY IAC_u DESC
+17-05-2021 16:51:54,info,test5 table displayed; query = Select CI_n,CI_m,IAC_u from test5 ORDER BY IAC_u ASC
+17-05-2021 16:56:00,info,Query is performed : Select * from test5 limit 5 
+17-05-2021 16:57:32,info,Query is performed : Select * from test5 Limit 5 
+17-05-2021 16:57:35,info,SQL object created
+17-05-2021 16:57:36,info,UCI DB selected
+17-05-2021 16:57:36,info,columns names displayed
+17-05-2021 16:57:38,info,Query is performed : Select * from test5 Limit 5 
+17-05-2021 16:58:27,info,Query is performed : Select IAC_u from test5 Limit 5 
+17-05-2021 16:58:53,error,Query not performed : Select Distinct CI_u from test5 Limit 5 : 1054 (42S22): Unknown column 'CI_u' in 'field list'
+17-05-2021 16:59:01,info,Query is performed : Select Distinct CI_m from test5 Limit 5 
+17-05-2021 17:00:11,info,Query is performed : Select CI_n,IAC_u from test5 where CI_n=2 Limit 5 
+17-05-2021 17:00:58,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 where CI_n=2 and CI_m=1 Limit 5 
+17-05-2021 17:01:32,info,Query is performed : Select CI_n,IAC_u from test5 where CI_n=2 or CI_n=3 Limit 5 
+17-05-2021 17:01:38,info,Query is performed : Select CI_n,IAC_u from test5 where CI_n=2 or CI_n=3 Limit 40 
+17-05-2021 17:02:31,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 where NOT CI_n=4 and  CI_m=3 Limit 5 
+17-05-2021 17:03:31,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 ORDER BY IAC_u DESC Limit 5 
+17-05-2021 17:03:36,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 ORDER BY IAC_u ASC Limit 5 
+17-05-2021 17:04:22,info,Query is performed : Select MIN(IAC_u) from test5 
+17-05-2021 17:05:05,info,Query is performed : Select MAX(IAC_u) from test5 
+17-05-2021 17:06:17,info,Query is performed : Select MIN(IAC_u) from test5 
+17-05-2021 17:06:21,info,Query is performed : Select MIN(IAC_u) from test5 
+17-05-2021 17:06:22,info,Query is performed : Select MAX(IAC_u) from test5 
+17-05-2021 17:06:37,info,Query is performed : Select count(IAC_u) from test5 
+17-05-2021 17:06:55,info,Query is performed : Select AVG(IAC_u) from test5 
+17-05-2021 17:07:04,error,Query not performed : Select AVG(CI_u) from test5 : 1054 (42S22): Unknown column 'CI_u' in 'field list'
+17-05-2021 17:07:17,info,Query is performed : Select AVG(CI_m) from test5 
+17-05-2021 17:07:35,error,Query not performed : Select sum(CI_u) from test5 : 1054 (42S22): Unknown column 'CI_u' in 'field list'
+17-05-2021 17:07:40,info,Query is performed : Select sum(CI_m) from test5 
+17-05-2021 17:09:57,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '0,056%' 
+17-05-2021 17:11:29,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%05' 
+17-05-2021 17:11:39,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%105' 
+17-05-2021 17:11:47,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%1105' 
+17-05-2021 17:11:53,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%1105' 
+17-05-2021 17:12:53,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%345%' 
+17-05-2021 17:13:04,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%3435%' 
+17-05-2021 17:13:08,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%3455%' 
+17-05-2021 17:13:15,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%3455%' 
+17-05-2021 17:14:52,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '0,44%55%' 
+17-05-2021 17:15:01,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '0,44%55' 
+17-05-2021 17:15:15,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '0,44%55' 
+17-05-2021 23:08:03,info,SQL object created
+17-05-2021 23:08:05,info,UCI DB selected
+17-05-2021 23:10:38,info,Query is performed : Select * from test5 WHERE IAC_u IN (0,825961,0,12863) 
+17-05-2021 23:10:58,info,Query is performed : Select * from test5 WHERE IAC_u IN (0,825961,0,12863) limit 5 
+17-05-2021 23:12:06,info,Query is performed : Select * from test5 WHERE IAC_u IN ("0,825961","0,12863") limit 5 
+17-05-2021 23:13:01,info,Query is performed : Select * from test5 WHERE IAC_u IN ('0,825961','0,12863') limit 5 
+17-05-2021 23:13:54,info,Query is performed : Select * from test5 WHERE CI_m IN (8,4) limit 5 
+17-05-2021 23:14:02,info,Query is performed : Select * from test5 WHERE CI_m IN (5,4) limit 5 
+17-05-2021 23:14:10,info,Query is performed : Select * from test5 WHERE CI_m IN (5,4) limit 100 
+17-05-2021 23:14:20,error,Query not performed : Select * from test5 WHERE CI_u IN (5,4) limit 100 : 1054 (42S22): Unknown column 'CI_u' in 'where clause'
+17-05-2021 23:14:25,info,Query is performed : Select * from test5 WHERE CI_n IN (5,4) limit 100 
+17-05-2021 23:14:35,info,Query is performed : Select * from test5 WHERE CI_n IN (5,1) limit 100 
+17-05-2021 23:14:49,info,Query is performed : Select * from test5 WHERE CI_n IN (5,1) limit 5 
+17-05-2021 23:16:11,error,Query not performed : Select * from test5 WHERE IAC_u between 0,680778 and 0,493 limit 5 : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',680778 and 0,493 limit 5' at line 1
+17-05-2021 23:16:25,info,Query is performed : Select * from test5 WHERE IAC_u between 680778 and 493 limit 5 
+17-05-2021 23:17:11,info,Query is performed : Select * from test5 WHERE CI_n between 4 and 5 limit 5 
+17-05-2021 23:28:00,info,SQL object created
+17-05-2021 23:28:00,info,UCI DB selected
+17-05-2021 23:28:01,info,columns names displayed
+17-05-2021 23:28:16,info,Query is performed : Select * from test5 Limit 5 
+17-05-2021 23:28:35,info,Query is performed : Select * from test5 
+17-05-2021 23:28:49,info,Query is performed : Select IAC_u from test5 
+17-05-2021 23:29:00,info,Query is performed : Select Distinct CI_m from test5 
+17-05-2021 23:29:51,info,Query is performed : Select CI_n,IAC_u from test5 where CI_n=2 
+17-05-2021 23:30:02,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 where CI_n=2 and CI_m=1 
+17-05-2021 23:30:12,info,Query is performed : Select CI_n,IAC_u from test5 where CI_n=2 or CI_n=3 
+17-05-2021 23:30:21,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 where NOT CI_n=4 and  CI_m=3 
+17-05-2021 23:30:39,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 ORDER BY IAC_u DESC 
+17-05-2021 23:30:52,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 ORDER BY IAC_u ASC 
+17-05-2021 23:30:59,info,Query is performed : Select MIN(IAC_u) from test5 
+17-05-2021 23:31:07,info,Query is performed : Select MIN(IAC_u) from test5 
+17-05-2021 23:31:08,info,Query is performed : Select MAX(IAC_u) from test5 
+17-05-2021 23:31:13,info,Query is performed : Select count(IAC_u) from test5 
+17-05-2021 23:31:17,info,Query is performed : Select AVG(CI_m) from test5 
+17-05-2021 23:31:18,info,Query is performed : Select sum(CI_m) from test5 
+17-05-2021 23:31:26,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '0,056%' 
+17-05-2021 23:31:40,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '0,05%' 
+17-05-2021 23:31:51,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%110' 
+17-05-2021 23:32:07,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%1105' 
+17-05-2021 23:32:22,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%3455%' 
+17-05-2021 23:32:30,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%345%' 
+17-05-2021 23:32:50,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '0,44%5' 
+17-05-2021 23:33:03,info,Query is performed : Select * from test5 WHERE CI_n IN (5,1) 
+17-05-2021 23:33:13,info,Query is performed : Select * from test5 WHERE CI_n between 4 and 5 
+17-05-2021 23:35:05,info,Query is performed : Select CI_n as CI,IAC_u as IAC from test5 
+17-05-2021 23:37:22,info,SQL object created
+17-05-2021 23:37:22,info,UCI DB selected
+17-05-2021 23:37:23,info,columns names displayed
+17-05-2021 23:37:23,info,Query is performed : Select * from test5 
+17-05-2021 23:37:23,info,Query is performed : Select IAC_u from test5 
+17-05-2021 23:37:24,info,Query is performed : Select Distinct CI_m from test5 
+17-05-2021 23:37:24,info,Query is performed : Select CI_n,IAC_u from test5 where CI_n=2 
+17-05-2021 23:37:24,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 where CI_n=2 and CI_m=1 
+17-05-2021 23:37:24,info,Query is performed : Select CI_n,IAC_u from test5 where CI_n=2 or CI_n=3 
+17-05-2021 23:37:24,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 where NOT CI_n=4 and  CI_m=3 
+17-05-2021 23:37:25,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 ORDER BY IAC_u DESC 
+17-05-2021 23:37:25,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 ORDER BY IAC_u ASC 
+17-05-2021 23:37:25,info,Query is performed : Select MIN(IAC_u) from test5 
+17-05-2021 23:37:26,info,Query is performed : Select MAX(IAC_u) from test5 
+17-05-2021 23:37:26,info,Query is performed : Select count(IAC_u) from test5 
+17-05-2021 23:37:27,info,Query is performed : Select AVG(CI_m) from test5 
+17-05-2021 23:37:27,info,Query is performed : Select sum(CI_m) from test5 
+17-05-2021 23:37:27,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '0,05%' 
+17-05-2021 23:37:27,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%1105' 
+17-05-2021 23:37:28,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%345%' 
+17-05-2021 23:37:28,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '0,44%5' 
+17-05-2021 23:37:28,info,Query is performed : Select * from test5 WHERE CI_n IN (5,1) 
+17-05-2021 23:37:29,info,Query is performed : Select * from test5 WHERE CI_n between 4 and 5 
+17-05-2021 23:37:30,info,Query is performed : Select CI_n as CI,IAC_u as IAC from test5 
+17-05-2021 23:38:49,info,Query is performed : Select CI_n as CI,IAC_u as IAC from test5 
+17-05-2021 23:40:19,info,Query is performed : Select CI_n as CI,IAC_u as IAC from test5 
+17-05-2021 23:41:34,error,Query not performed : Select IAC_u from test5 GROUP BY CI : 1054 (42S22): Unknown column 'CI' in 'group statement'
+17-05-2021 23:41:43,error,Query not performed : Select IAC_u from test5 GROUP BY CI_m : 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'UCI.test5.IAC_u' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+17-05-2021 23:41:48,error,Query not performed : Select IAC_u from test5 GROUP BY CI_n : 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'UCI.test5.IAC_u' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+17-05-2021 23:42:15,info,Query is performed : Select * from test5 
+17-05-2021 23:43:05,error,Query not performed : Select IAC_u from test5 Group By CI_n : 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'UCI.test5.IAC_u' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+17-05-2021 23:43:42,info,SQL object created
+17-05-2021 23:43:42,info,UCI DB selected
+17-05-2021 23:43:51,error,Query not performed : Select IAC_u from test5 Group By CI_n : Execution failed on sql 'Select IAC_u from test5 Group By CI_n': 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'UCI.test5.IAC_u' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+17-05-2021 23:45:42,error,Query not performed : Select IAC_u from test5 Group By CI_m : Execution failed on sql 'Select IAC_u from test5 Group By CI_m': 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'UCI.test5.IAC_u' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+17-05-2021 23:45:56,info,Query is performed : Select IAC_u from test5 Group By IAC_u 
+17-05-2021 23:46:06,error,Query not performed : Select * from test5 Group By IAC_u : Execution failed on sql 'Select * from test5 Group By IAC_u': 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'UCI.test5.CI_n' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+17-05-2021 23:46:15,error,Query not performed : Select * from test5 Group By IAC_u : Execution failed on sql 'Select * from test5 Group By IAC_u': 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'UCI.test5.CI_n' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+17-05-2021 23:47:51,error,Query not performed : Select IAC_u, IAC_v, IAC_w, CAC_u, CAC_v,CAC_w from test5 Group By IAC_u : Execution failed on sql 'Select IAC_u, IAC_v, IAC_w, CAC_u, CAC_v,CAC_w from test5 Group By IAC_u': 1055 (42000): Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'UCI.test5.IAC_v' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+17-05-2021 23:48:00,error,Query not performed : Select IAC_u, IAC_v from test5 Group By IAC_u : Execution failed on sql 'Select IAC_u, IAC_v from test5 Group By IAC_u': 1055 (42000): Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'UCI.test5.IAC_v' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+17-05-2021 23:48:06,info,Query is performed : Select IAC_u from test5 Group By IAC_u 
+17-05-2021 23:49:29,error,Query not performed : Select IAC_u from test5 Group By IAC_u Order by IAC_v : Execution failed on sql 'Select IAC_u from test5 Group By IAC_u Order by IAC_v': 1055 (42000): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'UCI.test5.IAC_v' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+17-05-2021 23:49:42,error,Query not performed : Select IAC_u from test5 Group By IAC_u Order by CN_n : Execution failed on sql 'Select IAC_u from test5 Group By IAC_u Order by CN_n': 1054 (42S22): Unknown column 'CN_n' in 'order clause'
+17-05-2021 23:49:46,info,Query is performed : Select IAC_u from test5 Group By IAC_u  
+17-05-2021 23:50:02,info,Query is performed : Select count(IAC_u) from test5 Group By IAC_u  
+18-05-2021 00:00:37,error,Query not performed : Select IAC_v from test5 Group By IAC_v having count(IAX_v)>2  : Execution failed on sql 'Select IAC_v from test5 Group By IAC_v having count(IAX_v)>2 ': 1054 (42S22): Unknown column 'IAX_v' in 'having clause'
+18-05-2021 00:00:42,error,Query not performed : Select IAC_v from test5 Group By IAC_v having count(IAX_v)>1  : Execution failed on sql 'Select IAC_v from test5 Group By IAC_v having count(IAX_v)>1 ': 1054 (42S22): Unknown column 'IAX_v' in 'having clause'
+18-05-2021 00:00:47,info,Query is performed : Select IAC_v from test5 Group By IAC_v having count(IAC_v)>1  
+18-05-2021 00:00:53,info,Query is performed : Select IAC_v from test5 Group By IAC_v having count(IAC_v)>2  
+18-05-2021 00:01:00,info,Query is performed : Select IAC_v from test5 Group By IAC_v having count(IAC_v)>3  
+18-05-2021 00:01:25,info,Query is performed : Select count(IAC_v) from test5 Group By IAC_v  
+18-05-2021 00:04:00,error,db not created error : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DB' at line 1
+18-05-2021 00:04:08,info,Test_DB DB created
+18-05-2021 00:05:57,info,SQL object created
+18-05-2021 00:06:08,info,SQL object created
+18-05-2021 00:07:47,info,SQL object created
+18-05-2021 00:07:48,info,UCI DB selected
+18-05-2021 00:08:46,info,SQL object created
+18-05-2021 00:09:51,info,columns names displayed
+18-05-2021 00:11:30,info,SQL object created
+18-05-2021 00:11:31,info,UCI DB selected
+18-05-2021 00:11:50,info,Test_DB DB droped
+18-05-2021 00:16:19,error,connection error : 1049 (42000): Unknown database 'Test_DB'
+18-05-2021 00:17:51,info,UCI DB selected
+18-05-2021 00:17:58,info,test_table table created with columns: id integer, first_name varchar(10), last_name varchar(10),city varchar(10)
+18-05-2021 00:25:40,info,columns names displayed
+18-05-2021 00:25:56,error,Query not performed : DROP TABLE test table : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1
+18-05-2021 00:27:28,error,table not created error : 1050 (42S01): Table 'test_table' already exists
+18-05-2021 00:27:29,info,columns names displayed
+18-05-2021 00:27:34,error,Query not performed : DROP TABLE test table : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1
+18-05-2021 00:27:36,error,table not created error : 1050 (42S01): Table 'test_table' already exists
+18-05-2021 00:27:37,info,columns names displayed
+18-05-2021 00:27:43,info,test_table1 table created with columns: id integer, first_name varchar(10), last_name varchar(10),city varchar(10)
+18-05-2021 00:27:44,info,columns names displayed
+18-05-2021 00:27:49,info,columns names displayed
+18-05-2021 00:28:59,error,Query not performed : INSERT INTO customer VALUES(11,‘Victoria’,‘Ashworth’,NULL) : 1146 (42S02): Table 'UCI.customer' doesn't exist
+18-05-2021 00:29:37,error,Query not performed : select * frpm test_table1 : Execution failed on sql 'select * frpm test_table1': 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frpm test_table1' at line 1
+18-05-2021 00:29:58,error,Query not performed : INSERT INTO test_table1 VALUES(11,‘Victoria’,‘Ashworth’,NULL) : 1054 (42S22): Unknown column '‘Victoria’' in 'field list'
+18-05-2021 00:29:58,error,Query not performed : select * frpm test_table1 : Execution failed on sql 'select * frpm test_table1': 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frpm test_table1' at line 1
+18-05-2021 00:30:19,error,Query not performed : INSERT INTO test_table1 VALUES(11,‘Victoria’,‘Ashworth’,NULL : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+18-05-2021 00:30:20,error,Query not performed : select * frpm test_table1 : Execution failed on sql 'select * frpm test_table1': 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frpm test_table1' at line 1
+18-05-2021 00:30:27,info,Query is performed : select * from test_table1 
+18-05-2021 00:30:37,error,Query not performed : INSERT INTO test_table1 VALUES(11,‘Victoria’,‘Ashworth’,NULL : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+18-05-2021 00:30:38,info,Query is performed : select * from test_table1 
+18-05-2021 00:30:48,info,Query is performed : select * from test_table1 
+18-05-2021 00:30:50,error,Query not performed : DROP TABLE test table : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1
+18-05-2021 00:30:55,error,table not created error : 1050 (42S01): Table 'test_table1' already exists
+18-05-2021 00:30:55,info,columns names displayed
+18-05-2021 00:31:11,info,columns names displayed
+18-05-2021 00:31:12,error,Query not performed : INSERT INTO test_table1 VALUES(11,‘Victoria’,‘Ashworth’,NULL : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+18-05-2021 00:31:13,info,Query is performed : select * from test_table1 
+18-05-2021 00:31:43,error,Query not performed : INSERT INTO test_table1 VALUES(11,‘Victoria’,‘Ashworth’,NULL) : 1054 (42S22): Unknown column '‘Victoria’' in 'field list'
+18-05-2021 00:32:18,info,Query is performed : select * from test_table1 
+18-05-2021 00:32:32,error,Query not performed : INSERT INTO test_table1 VALUES(11,‘Victoria’,‘Ashworth’,NULL) : 1054 (42S22): Unknown column '‘Victoria’' in 'field list'
+18-05-2021 00:32:34,error,Query not performed : DROP TABLE test table : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1
+18-05-2021 00:32:46,error,Query not performed : DROP TABLE test table : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1
+18-05-2021 00:33:46,info,Query is performed : Select IAC_v from test5 Group By IAC_v having count(IAC_v)>3  
+18-05-2021 00:36:02,error,Query not performed : SELECT * FROM customer WHERE country IS NOT NULL : Execution failed on sql 'SELECT * FROM customer WHERE country IS NOT NULL': 1146 (42S02): Table 'UCI.customer' doesn't exist
+18-05-2021 00:36:31,info,Query is performed : SELECT * FROM test5 WHERE IAC_u IS NOT NULL 
+18-05-2021 00:39:14,error,Query not performed : Update test5 SET IAC_u = 1,111111 WHERE C1_n=12  : Execution failed on sql 'Update test5 SET IAC_u = 1,111111 WHERE C1_n=12 ': 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '111111 WHERE C1_n=12' at line 1
+18-05-2021 00:39:25,error,Query not performed : Update test5 SET IAC_u = 1,111111 WHERE C1_n=12  : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '111111 WHERE C1_n=12' at line 1
+18-05-2021 00:39:35,info,Query is performed : SELECT * FROM test5  
+18-05-2021 00:39:53,error,Query not performed : Update test5 SET IAC_u = 1,111111 WHERE CI_n=12  : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '111111 WHERE CI_n=12' at line 1
+18-05-2021 00:39:53,info,Query is performed : SELECT * FROM test5  
+18-05-2021 00:40:11,info,Query is performed : Update test5 SET IAC_u = '1,111111' WHERE CI_n=12  
+18-05-2021 00:40:11,info,Query is performed : SELECT * FROM test5  
+18-05-2021 00:40:32,info,Query is performed : Update test5 SET IAC_u = '1,111111' WHERE CI_n=12  
+18-05-2021 00:40:33,info,Query is performed : SELECT * FROM test5  
+18-05-2021 00:40:43,info,Query is performed : Update test5 SET IAC_u = '1,111111' WHERE CI_n=2  
+18-05-2021 00:40:43,info,Query is performed : SELECT * FROM test5  
+18-05-2021 00:41:21,info,Query is performed : Update test5 SET CI_m = 111 WHERE CI_n=2  
+18-05-2021 00:41:22,info,Query is performed : SELECT * FROM test5  
+18-05-2021 00:42:26,error,Query not performed : Update test5 SET CI_m = '1,111111' WHERE IAC_u=0,679005  : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',679005' at line 1
+18-05-2021 00:42:32,info,Query is performed : SELECT * FROM test5  
+18-05-2021 00:42:35,error,Query not performed : Update test5 SET CI_m = '1,111111' WHERE IAC_u=0,679005  : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',679005' at line 1
+18-05-2021 00:42:35,info,Query is performed : SELECT * FROM test5  
+18-05-2021 00:42:47,error,Query not performed : Update test5 SET CI_m = '1,111111' WHERE IAC_u=0,679005 : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',679005' at line 1
+18-05-2021 00:43:05,info,Query is performed : Update test5 SET IAC_u = '1,111111' WHERE CI_n=2  
+18-05-2021 00:43:44,error,Query not performed : DELETE FROM test5 WHERE CI_n=2 : 'NoneType' object is not iterable
+18-05-2021 00:43:59,info,Query is performed : SELECT * FROM test5 
+18-05-2021 00:44:10,info,Query is performed : DELETE FROM test5 WHERE CI_n=2 
+18-05-2021 00:44:10,info,Query is performed : SELECT * FROM test5 
+18-05-2021 00:45:03,info,Query is performed : ALTER TABLE test5 ADD email varchar(25) 
+18-05-2021 00:45:08,error,Query not performed : ALTER TABLE test5 ADD email varchar(25) : Execution failed on sql 'ALTER TABLE test5 ADD email varchar(25)': 1060 (42S21): Duplicate column name 'email'
+18-05-2021 12:06:19,info,SQL object created
+18-05-2021 12:06:20,info,UCI DB selected
+18-05-2021 12:09:02,error,Query not performed : ALTER TABLE test5 ADD email varchar(25) : Execution failed on sql 'ALTER TABLE test5 ADD email varchar(25)': 1060 (42S21): Duplicate column name 'email'
+18-05-2021 12:09:02,info,Query is performed : Select * from test5 
+18-05-2021 12:10:22,error,Query not performed : ALTER TABLE test5 DROP email : 'NoneType' object is not iterable
+18-05-2021 12:10:22,info,Query is performed : Select * from test5 
+18-05-2021 12:10:57,error,Query not performed : ALTER TABLE test5 ADD email varchar(25) : 'NoneType' object is not iterable
+18-05-2021 12:10:57,info,Query is performed : Select * from test5 
+18-05-2021 12:11:03,error,Query not performed : ALTER TABLE test5 DROP email : 'NoneType' object is not iterable
+18-05-2021 12:11:03,info,Query is performed : Select * from test5 
+18-05-2021 12:13:24,error,Query not performed : ALTER TABLE test5 MODIFY CI_n int NOT NULL : 'NoneType' object is not iterable
+18-05-2021 12:13:24,info,Query is performed : Select * from test5 
+18-05-2021 12:14:06,error,Query not performed : ALTER TABLE test5 MODIFY CI_n int NOT NULL : 'NoneType' object is not iterable
+18-05-2021 12:14:06,info,Query is performed : Select * from test5 WHERE CI_n IS NULL 
+18-05-2021 12:17:36,error,Query not performed : CREATE TABLE Persons (ID int NOT NULL,LastName varchar(255) NOT NULL,FirstName varchar(255),Age int,CHECK (Age>=18) : Execution failed on sql 'CREATE TABLE Persons (ID int NOT NULL,LastName varchar(255) NOT NULL,FirstName varchar(255),Age int,CHECK (Age>=18)': 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+18-05-2021 12:18:09,error,Query not performed : Select * from Persons : Execution failed on sql 'Select * from Persons': 1146 (42S02): Table 'UCI.Persons' doesn't exist
+18-05-2021 12:18:32,info,columns names displayed
+18-05-2021 12:20:57,error,Query not performed : CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, CHECK (Age>=18)) : 'NoneType' object is not iterable
+18-05-2021 12:21:17,info,Query is performed : Select * from Persons 
+18-05-2021 12:22:05,error,Query not performed : CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, CHECK (Age>=18)) : Execution failed on sql 'CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, CHECK (Age>=18))': 1050 (42S01): Table 'Persons' already exists
+18-05-2021 12:22:06,info,Query is performed : Select * from Persons 
+18-05-2021 12:24:43,error,Query not performed : ALTER TABLE Persons DROP CHECK Age : Execution failed on sql 'ALTER TABLE Persons DROP CHECK Age': 3821 (HY000): Check constraint 'Age' is not found in the table.
+18-05-2021 12:24:43,info,Query is performed : Select * from Persons 
+18-05-2021 12:26:45,error,Query not performed : CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes') : Execution failed on sql 'CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes')': 1050 (42S01): Table 'Persons' already exists
+18-05-2021 12:27:21,info,Query is performed : desc Persons 
+18-05-2021 12:27:38,error,Query not performed : CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, CHECK (Age>=18)) : Execution failed on sql 'CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, CHECK (Age>=18))': 1050 (42S01): Table 'Persons' already exists
+18-05-2021 12:27:38,info,Query is performed : desc Persons 
+18-05-2021 12:27:39,error,Query not performed : ALTER TABLE Persons DROP CHECK Age : Execution failed on sql 'ALTER TABLE Persons DROP CHECK Age': 3821 (HY000): Check constraint 'Age' is not found in the table.
+18-05-2021 12:27:39,info,Query is performed : desc Persons 
+18-05-2021 12:27:42,error,Query not performed : CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes') : Execution failed on sql 'CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes')': 1050 (42S01): Table 'Persons' already exists
+18-05-2021 12:27:42,info,Query is performed : desc Persons 
+18-05-2021 12:27:54,error,Query not performed : CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes') : Execution failed on sql 'CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes')': 1050 (42S01): Table 'Persons' already exists
+18-05-2021 12:27:54,info,Query is performed : desc Persons 
+18-05-2021 12:28:29,error,Query not performed : CREATE TABLE Person1 (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes') : 'NoneType' object is not iterable
+18-05-2021 12:28:29,info,Query is performed : desc Person1 
+18-05-2021 12:28:52,error,Query not performed : CREATE TABLE Person1 (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes') : Execution failed on sql 'CREATE TABLE Person1 (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes')': 1050 (42S01): Table 'Person1' already exists
+18-05-2021 12:28:52,info,Query is performed : desc Person1 
+18-05-2021 12:30:23,info,SQL object created
+18-05-2021 12:30:24,info,UCI DB selected
+18-05-2021 12:30:33,error,Query not performed : CREATE TABLE Person1 (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes') : Execution failed on sql 'CREATE TABLE Person1 (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes')': 1050 (42S01): Table 'Person1' already exists
+18-05-2021 12:30:33,info,Query is performed : desc Person1 
+18-05-2021 12:30:43,error,Query not performed : ALTER TABLE Persons DROP CHECK Age : Execution failed on sql 'ALTER TABLE Persons DROP CHECK Age': 3821 (HY000): Check constraint 'Age' is not found in the table.
+18-05-2021 12:30:43,info,Query is performed : desc Persons 
+18-05-2021 12:30:49,error,Query not performed : CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, CHECK (Age>=18)) : Execution failed on sql 'CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, CHECK (Age>=18))': 1050 (42S01): Table 'Persons' already exists
+18-05-2021 12:30:49,info,Query is performed : desc Persons 
+18-05-2021 12:31:24,error,Query not performed : ALTER TABLE test5 MODIFY CI_n int NOT NULL : 'NoneType' object is not iterable
+18-05-2021 12:31:24,info,Query is performed : desc test5 
+18-05-2021 12:31:51,error,Query not performed : ALTER TABLE test5 DROP email : Execution failed on sql 'ALTER TABLE test5 DROP email': 1091 (42000): Can't DROP 'email'; check that column/key exists
+18-05-2021 12:31:51,info,Query is performed : Select * from test5 
+18-05-2021 12:31:58,error,Query not performed : ALTER TABLE test5 ADD email varchar(25) : 'NoneType' object is not iterable
+18-05-2021 12:31:58,info,Query is performed : Select * from test5 
+18-05-2021 12:35:07,error,Query not performed : ALTER TABLE Person1 ALTER City DROP DEFAULT : 'NoneType' object is not iterable
+18-05-2021 12:35:07,info,Query is performed : desc Person1 
+18-05-2021 12:35:32,error,Query not performed : ALTER TABLE Person1 ALTER City DROP DEFAULT : 'NoneType' object is not iterable
+18-05-2021 12:35:32,info,Query is performed : desc Person1 
+18-05-2021 13:01:28,error,Query not performed : CREATE INDEX idex_lastname on Persons (LastName) : 'NoneType' object is not iterable
+18-05-2021 13:01:28,info,Query is performed : desc Person1 
+18-05-2021 13:01:52,error,Query not performed : CREATE INDEX idex_lastname on Person1 (LastName) : 'NoneType' object is not iterable
+18-05-2021 13:01:52,info,Query is performed : desc Person1 
+18-05-2021 13:03:13,error,Query not performed : Create UNIQUE id on Person1 (ID) : Execution failed on sql 'Create UNIQUE id on Person1 (ID)': 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id on Person1 (ID)' at line 1
+18-05-2021 13:03:13,info,Query is performed : desc Person1 
+18-05-2021 13:03:25,error,Query not performed : Create UNIQUE INDEX id on Person1 (ID) : 'NoneType' object is not iterable
+18-05-2021 13:03:25,info,Query is performed : desc Person1 
+18-05-2021 13:04:19,error,Query not performed : ALTER TABLE Person1 DROP INDEX idex_lastname : 'NoneType' object is not iterable
+18-05-2021 13:04:19,info,Query is performed : desc Person1 
+18-05-2021 13:14:54,info,Query is performed : desc test5 
+18-05-2021 13:15:01,info,Query is performed : desc test5 
+18-05-2021 13:16:30,error,Query not performed : CREATE VIEW test_view AS SELECT CI_n,IAC_u,IAC_v FROM test5 WHERE CIn>5 : Execution failed on sql 'CREATE VIEW test_view AS SELECT CI_n,IAC_u,IAC_v FROM test5 WHERE CIn>5': 1054 (42S22): Unknown column 'CIn' in 'where clause'
+18-05-2021 13:16:30,error,Query not performed : Select * from test_view : Execution failed on sql 'Select * from test_view': 1146 (42S02): Table 'UCI.test_view' doesn't exist
+18-05-2021 13:16:43,error,Query not performed : CREATE VIEW test_view AS SELECT CI_n,IAC_u,IAC_v FROM test5 WHERE CIn>4 : Execution failed on sql 'CREATE VIEW test_view AS SELECT CI_n,IAC_u,IAC_v FROM test5 WHERE CIn>4': 1054 (42S22): Unknown column 'CIn' in 'where clause'
+18-05-2021 13:16:43,error,Query not performed : Select * from test_view : Execution failed on sql 'Select * from test_view': 1146 (42S02): Table 'UCI.test_view' doesn't exist
+18-05-2021 13:17:21,error,Query not performed : CREATE VIEW test_view AS SELECT CI_n,IAC_u,IAC_v FROM test5 : 'NoneType' object is not iterable
+18-05-2021 13:17:21,info,Query is performed : Select * from test_view 
+18-05-2021 13:22:51,info,SQL object created
+18-05-2021 13:22:51,info,UCI DB selected
+18-05-2021 13:23:23,error,Query not performed : DROP VIEW test_view : 'NoneType' object is not iterable
+18-05-2021 13:23:23,error,Query not performed : Select * from test_view : Execution failed on sql 'Select * from test_view': 1146 (42S02): Table 'UCI.test_view' doesn't exist
+18-05-2021 13:23:41,info,columns names displayed
+18-05-2021 13:24:03,info,Query is performed : Update test5 SET IAC_u = '1,111111' WHERE CI_n=2  
+18-05-2021 13:24:10,error,Query not performed : Update test5 SET IAC_u = '1,111111' WHERE CI_n=2  : 'NoneType' object is not iterable
+18-05-2021 13:24:23,error,Query not performed : DELETE FROM test5 WHERE CI_n=2 : 'NoneType' object is not iterable
+18-05-2021 13:24:34,error,Query not performed : DELETE ALL FROM test5 WHERE CI_n=2 : Execution failed on sql 'DELETE ALL FROM test5 WHERE CI_n=2': 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ALL FROM test5 WHERE CI_n=2' at line 1
+18-05-2021 13:26:15,info,columns names displayed
+18-05-2021 13:26:15,info,Query is performed : desc test_table 
+18-05-2021 13:26:31,error,Query not performed : INSERT INTO test_table1 VALUES(11,‘Victoria’,‘Ashworth’,NULL) : 1054 (42S22): Unknown column '‘Victoria’' in 'field list'
+18-05-2021 13:26:31,info,Query is performed : select 8 from test_table 
+18-05-2021 13:26:43,error,Query not performed : INSERT INTO test_table1 VALUES(11,‘Victoria’,‘Ashworth’,NULL) : 1054 (42S22): Unknown column '‘Victoria’' in 'field list'
+18-05-2021 13:26:43,info,Query is performed : select * from test_table 
+18-05-2021 13:26:52,error,Query not performed : INSERT INTO test_table VALUES(11,‘Victoria’,‘Ashworth’,NULL) : 1054 (42S22): Unknown column '‘Victoria’' in 'field list'
+18-05-2021 13:26:52,info,Query is performed : select * from test_table 
+18-05-2021 13:27:03,error,Query not performed : INSERT INTO test_table1 VALUES(11,‘Victoria’,‘Ashworth’,NULL) : 1054 (42S22): Unknown column '‘Victoria’' in 'field list'
+18-05-2021 13:27:03,info,Query is performed : select * from test_table1 
+18-05-2021 13:27:06,info,columns names displayed
+18-05-2021 13:27:06,info,Query is performed : desc test_table1 
+18-05-2021 13:27:06,error,Query not performed : INSERT INTO test_table1 VALUES(11,‘Victoria’,‘Ashworth’,NULL) : 1054 (42S22): Unknown column '‘Victoria’' in 'field list'
+18-05-2021 13:27:06,info,Query is performed : select * from test_table1 
+18-05-2021 13:27:15,error,table not created error : 1050 (42S01): Table 'test_table1' already exists
+18-05-2021 13:27:15,info,columns names displayed
+18-05-2021 13:27:15,info,Query is performed : desc test_table1 
+18-05-2021 13:27:40,error,Query not performed : INSERT INTO test_table1 VALUES(11,‘Victoria’,‘Ashworth’,NULL) : 1054 (42S22): Unknown column '‘Victoria’' in 'field list'
+18-05-2021 13:27:40,info,Query is performed : select * from test_table1 
+18-05-2021 13:27:56,error,Query not performed : INSERT INTO test_table1 VALUES(11,‘Victoria’,‘Ashworth’,'NULL') : 1054 (42S22): Unknown column '‘Victoria’' in 'field list'
+18-05-2021 13:27:56,info,Query is performed : select * from test_table1 
+18-05-2021 13:28:07,info,test_t table created with columns: id integer, first_name varchar(10), last_name varchar(10),city varchar(10)
+18-05-2021 13:28:22,error,Query not performed : INSERT INTO test_t VALUES(11,‘Victoria’,‘Ashworth’,'NULL') : 1054 (42S22): Unknown column '‘Victoria’' in 'field list'
+18-05-2021 13:28:22,info,Query is performed : select * from test_t 
+18-05-2021 13:28:25,error,table not created error : 1050 (42S01): Table 'test_t' already exists
+18-05-2021 13:28:26,info,columns names displayed
+18-05-2021 13:28:26,info,Query is performed : desc test_table1 
+18-05-2021 13:28:28,error,Query not performed : INSERT INTO test_t VALUES(11,‘Victoria’,‘Ashworth’,'NULL') : 1054 (42S22): Unknown column '‘Victoria’' in 'field list'
+18-05-2021 13:28:28,info,Query is performed : select * from test_t 
+18-05-2021 13:28:29,info,Query is performed : DROP TABLE test_table 
+18-05-2021 13:28:29,error,Query not performed : desc test_table : Execution failed on sql 'desc test_table': 1146 (42S02): Table 'UCI.test_table' doesn't exist
+18-05-2021 13:29:26,info,Query is performed : SELECT * FROM test5 WHERE IAC_u IS NOT NULL 
+18-05-2021 13:29:28,error,Query not performed : ALTER TABLE test5 ADD email varchar(25) : Execution failed on sql 'ALTER TABLE test5 ADD email varchar(25)': 1060 (42S21): Duplicate column name 'email'
+18-05-2021 13:29:28,info,Query is performed : Select * from test5 
+18-05-2021 13:43:53,error,Query not performed : 
+DELIMITER $$
+CREATE PROCEDURE view_top_5()
+BEGIN
+SELECT *
+FROM test5 Limit 5
+END$$
+DELIMITER
+ : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DELIMITER $$
+CREATE PROCEDURE view_top_5()
+BEGIN
+SELECT *
+FROM test5 Limit 5
+END' at line 1
+18-05-2021 13:44:23,error,Query not performed : call view_top_5 : Execution failed on sql 'call view_top_5': 1305 (42000): PROCEDURE UCI.view_top_5 does not exist
+18-05-2021 13:44:31,error,Query not performed : call view_top_5() : Execution failed on sql 'call view_top_5()': 1305 (42000): PROCEDURE UCI.view_top_5 does not exist
+18-05-2021 13:44:42,error,Query not performed : CALL view_top_5() : Execution failed on sql 'CALL view_top_5()': 1305 (42000): PROCEDURE UCI.view_top_5 does not exist
+18-05-2021 13:45:40,error,Query not performed : CALL view_top_5() : 1305 (42000): PROCEDURE UCI.view_top_5 does not exist
+18-05-2021 13:46:56,error,Query not performed : DELIMITER $$ CREATE PROCEDURE view_top_5() BEGIN SELECT * FROM test5 Limit 5 END $$ DELIMITER : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DELIMITER $$ CREATE PROCEDURE view_top_5() BEGIN SELECT * FROM test5 Limit 5 END' at line 1
+18-05-2021 13:46:57,error,Query not performed : CALL view_top_5() : 1305 (42000): PROCEDURE UCI.view_top_5 does not exist
+18-05-2021 13:47:51,error,Query not performed : CREATE PROCEDURE view_top_5() BEGIN SELECT * FROM test5 Limit 5 END : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'END' at line 1
+18-05-2021 13:47:51,error,Query not performed : CALL view_top_5() : 1305 (42000): PROCEDURE UCI.view_top_5 does not exist
+18-05-2021 13:48:03,error,Query not performed : CALL top_5() : 1305 (42000): PROCEDURE UCI.top_5 does not exist
+18-05-2021 13:48:56,error,Query not performed : // CREATE PROCEDURE top_5() BEGIN SELECT * FROM test5 Limit 5 END // : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '// CREATE PROCEDURE top_5() BEGIN SELECT * FROM test5 Limit 5 END //' at line 1
+18-05-2021 13:48:57,error,Query not performed : CALL top_5() : 1305 (42000): PROCEDURE UCI.top_5 does not exist
+18-05-2021 18:30:04,info,SQL object created
+18-05-2021 18:30:04,info,UCI DB selected
+18-05-2021 18:30:05,info,columns names displayed
+18-05-2021 18:30:05,info,Query is performed : Select * from test5 
+18-05-2021 18:30:05,info,Query is performed : Select IAC_u from test5 
+18-05-2021 18:30:06,info,Query is performed : Select Distinct CI_m from test5 
+18-05-2021 18:30:06,info,Query is performed : Select CI_n,IAC_u from test5 where CI_n=2 
+18-05-2021 18:30:06,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 where CI_n=2 and CI_m=1 
+18-05-2021 18:30:06,info,Query is performed : Select CI_n,IAC_u from test5 where CI_n=2 or CI_n=3 
+18-05-2021 18:30:07,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 where NOT CI_n=4 and  CI_m=3 
+18-05-2021 18:30:07,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 ORDER BY IAC_u DESC 
+18-05-2021 18:30:07,info,Query is performed : Select CI_n,CI_m,IAC_u from test5 ORDER BY IAC_u ASC 
+18-05-2021 18:30:08,info,Query is performed : Select MIN(IAC_u) from test5 
+18-05-2021 18:30:09,info,Query is performed : Select MAX(IAC_u) from test5 
+18-05-2021 18:30:10,info,Query is performed : Select count(IAC_u) from test5 
+18-05-2021 18:30:10,info,Query is performed : Select AVG(CI_m) from test5 
+18-05-2021 18:30:10,info,Query is performed : Select sum(CI_m) from test5 
+18-05-2021 18:30:11,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '0,05%' 
+18-05-2021 18:30:11,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%1105' 
+18-05-2021 18:30:12,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '%345%' 
+18-05-2021 18:30:12,info,Query is performed : Select * from test5 WHERE IAC_u LIKE '0,44%5' 
+18-05-2021 18:30:13,info,Query is performed : Select * from test5 WHERE CI_n IN (5,1) 
+18-05-2021 18:30:13,info,Query is performed : Select * from test5 WHERE CI_n between 4 and 5 
+18-05-2021 18:30:14,info,Query is performed : Select CI_n as CI,IAC_u as IAC from test5 
+18-05-2021 18:30:14,info,Query is performed : Select IAC_u from test5 Group By IAC_u  
+18-05-2021 18:30:15,info,Query is performed : Select count(IAC_v) from test5 Group By IAC_v  
+18-05-2021 18:30:15,info,Query is performed : Select IAC_v from test5 Group By IAC_v having count(IAC_v)>3  
+18-05-2021 18:30:18,info,Test_DB DB created
+18-05-2021 18:30:19,info,Test_DB DB droped
+18-05-2021 18:30:20,error,connection error : 1049 (42000): Unknown database 'Test_DB'
+18-05-2021 18:30:20,error,Query not performed : SELECT * FROM test5 WHERE IAC_u IS NOT NULL : 'NoneType' object has no attribute 'cursor'
+18-05-2021 18:31:15,info,UCI DB selected
+18-05-2021 18:31:16,info,Query is performed : SELECT * FROM test5 WHERE IAC_u IS NOT NULL 
+18-05-2021 18:31:21,error,Query not performed : ALTER TABLE test5 ADD email varchar(25) : Execution failed on sql 'ALTER TABLE test5 ADD email varchar(25)': 1060 (42S21): Duplicate column name 'email'
+18-05-2021 18:31:21,info,Query is performed : Select * from test5 
+18-05-2021 18:31:22,error,Query not performed : ALTER TABLE test5 DROP email : 'NoneType' object is not iterable
+18-05-2021 18:31:22,info,Query is performed : Select * from test5 
+18-05-2021 18:31:23,error,Query not performed : ALTER TABLE test5 MODIFY CI_n int NOT NULL : 'NoneType' object is not iterable
+18-05-2021 18:31:23,info,Query is performed : desc test5 
+18-05-2021 18:31:24,error,Query not performed : CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, CHECK (Age>=18)) : Execution failed on sql 'CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, CHECK (Age>=18))': 1050 (42S01): Table 'Persons' already exists
+18-05-2021 18:31:24,info,Query is performed : desc Persons 
+18-05-2021 18:31:25,error,Query not performed : ALTER TABLE Persons DROP CHECK Age : Execution failed on sql 'ALTER TABLE Persons DROP CHECK Age': 3821 (HY000): Check constraint 'Age' is not found in the table.
+18-05-2021 18:31:25,info,Query is performed : desc Persons 
+18-05-2021 18:31:26,error,Query not performed : CREATE TABLE Person1 (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes') : Execution failed on sql 'CREATE TABLE Person1 (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, City varchar(255) DEFAULT 'Sandnes')': 1050 (42S01): Table 'Person1' already exists
+18-05-2021 18:31:26,info,Query is performed : desc Person1 
+18-05-2021 18:31:27,error,Query not performed : ALTER TABLE Person1 ALTER City DROP DEFAULT : 'NoneType' object is not iterable
+18-05-2021 18:31:27,info,Query is performed : desc Person1 
+18-05-2021 18:31:28,error,Query not performed : CREATE INDEX idex_lastname on Person1 (LastName) : 'NoneType' object is not iterable
+18-05-2021 18:31:28,info,Query is performed : desc Person1 
+18-05-2021 18:31:29,error,Query not performed : Create UNIQUE INDEX id on Person1 (ID) : Execution failed on sql 'Create UNIQUE INDEX id on Person1 (ID)': 1061 (42000): Duplicate key name 'id'
+18-05-2021 18:31:29,info,Query is performed : desc Person1 
+18-05-2021 18:31:29,error,Query not performed : ALTER TABLE Person1 DROP INDEX idex_lastname : 'NoneType' object is not iterable
+18-05-2021 18:31:29,info,Query is performed : desc Person1 
+18-05-2021 18:31:30,error,Query not performed : CREATE VIEW test_view AS SELECT CI_n,IAC_u,IAC_v FROM test5 : 'NoneType' object is not iterable
+18-05-2021 18:31:30,info,Query is performed : Select * from test_view 
+18-05-2021 18:31:31,error,Query not performed : DROP VIEW test_view : 'NoneType' object is not iterable
+18-05-2021 18:31:31,error,Query not performed : Select * from test_view : Execution failed on sql 'Select * from test_view': 1146 (42S02): Table 'UCI.test_view' doesn't exist
+18-05-2021 18:31:37,info,Query is performed : Select CI_n, IF(CI_n>4,'MORE','LESS') from test5 
