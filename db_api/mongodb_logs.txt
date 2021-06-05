@@ -1,0 +1,19 @@
+30-05-2021 13:16:47,info,mongodb object created
+30-05-2021 13:17:21,info,mongodb object created
+30-05-2021 13:17:21,info,test_coll  collection created
+02-06-2021 15:46:51,info,mongodb object created
+02-06-2021 15:46:53,info,inserted successfully
+02-06-2021 16:01:59,info,mongodb object created
+02-06-2021 16:02:00,info,inserted successfully
+02-06-2021 16:06:58,info,mongodb object created
+02-06-2021 16:08:30,info,mongodb object created
+02-06-2021 16:08:30,info,update successfully
+02-06-2021 16:09:09,info,mongodb object created
+02-06-2021 16:09:10,info,update successfully
+02-06-2021 16:38:28,info,mongodb object created
+02-06-2021 16:38:29,info,deleted successfully
+02-06-2021 16:54:21,info,mongodb object created
+02-06-2021 16:54:41,info,mongodb object created
+02-06-2021 16:55:06,info,mongodb object created
+02-06-2021 16:55:29,info,mongodb object created
+02-06-2021 16:55:45,info,mongodb object created

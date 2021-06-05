@@ -1,0 +1,129 @@
+create table
+{
+	"operation":"create",
+	"host":"localhost",
+	"user":"root",
+	"password":"2001",
+	"db":"UCI",
+	"table":"api",
+	"columns":{"id":"INT(2)","name":"VARCHAR(20)"}
+}
+
+insert
+
+{
+	"operation":"insert",
+	"host":"localhost",
+	"user":"root",
+	"password":"2001",
+	"db":"UCI",
+	"table":"api",
+	"data":"1,Arjun"
+}
+
+update
+
+{
+	"operation":"update",
+	"host":"localhost",
+	"user":"root",
+	"password":"2001",
+	"db":"UCI",
+	"table":"api",
+	"set":"name ='abhay'",
+	"where":"id='1'"
+}
+
+delete
+
+{
+	"operation":"delete",
+	"host":"localhost",
+	"user":"root",
+	"password":"2001",
+	"db":"UCI",
+	"table":"api",
+	"where":"id='1'"
+}
+
+
+download
+
+{
+	"operation":"download",
+	"host":"localhost",
+	"user":"root",
+	"password":"2001",
+	"db":"UCI",
+	"table":"api"
+}
+
+bluk
+
+{
+	"operation":"bluk",
+	"host":"localhost",
+	"user":"root",
+	"password":"2001",
+	"db":"UCI",
+	"table":"api1",
+	"columns":{"id":"INT(2)","name":"VARCHAR(20)"},
+	"filepath":"api.csv"
+
+}
+
+
+
+
+MONGODB
+create
+
+{
+	"operation":"insert",
+	"url":enter your mongodb url here
+	,
+	"db":"testdb",
+	"collection_name":"test_coll"
+}
+
+insert
+
+{
+	"operation":"insert",
+	"url":"mongodb+srv://arjun:2001@cluster0.0h5a3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+	"db":"testdb",
+	"collection_name":"test_coll",
+	"record":{"companyName": "iNeuron","name":"Arjun"},
+}
+
+insert many
+{
+	"operation":"insert",
+	"url":"mongodb+srv://arjun:2001@cluster0.0h5a3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+	"db":"testdb",
+	"collection_name":"test_coll",
+	"record":[{"companyName": "iNeuron","name":"Abhay"},{"companyName": "iNeuron","name":"Badal"},{"companyName": "iNeuron","name":"Arjun"}],
+
+}
+
+update
+
+{
+	"operation":"update",
+	"url":"mongodb+srv://arjun:2001@cluster0.0h5a3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+	"db":"testdb",
+	"collection_name":"test_coll",
+	"set":{"name":"rachit"},
+	"where":{"name":"Arjun"}
+}
+
+delete
+{
+	"operation":"delete",
+	"url":"mongodb+srv://arjun:2001@cluster0.0h5a3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+	"db":"testdb",
+	"collection_name":"test_coll",
+	"where":{"name":"Abhay"}
+}
+
+

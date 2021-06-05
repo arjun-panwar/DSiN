@@ -1,0 +1,98 @@
+30-05-2021 00:49:01,info,SQL object created
+30-05-2021 00:50:42,info,SQL object created
+30-05-2021 00:51:32,info,SQL object created
+30-05-2021 00:51:51,info,SQL object created
+30-05-2021 00:52:11,info,SQL object created
+30-05-2021 00:52:11,error,table not created error : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name VARCHAR(20) )' at line 1
+30-05-2021 00:55:12,info,SQL object created
+30-05-2021 00:55:12,error,table not created error : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name VARCHAR(20) )' at line 1
+30-05-2021 00:55:58,info,SQL object created
+30-05-2021 00:55:58,error,table not created error : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name VARCHAR(20))' at line 1
+30-05-2021 00:56:58,info,SQL object created
+30-05-2021 00:56:58,error,table not created error : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name VARCHAR(20))' at line 1
+30-05-2021 00:57:25,info,SQL object created
+30-05-2021 00:57:25,error,table not created error : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',INT(2) name,VARCHAR(20))' at line 1
+30-05-2021 00:57:58,info,SQL object created
+30-05-2021 00:57:58,info,api table created with columns: id INT(2),name VARCHAR(20)
+30-05-2021 01:45:50,info,SQL object created
+30-05-2021 01:45:50,error,insert error : 1054 (42S22): Unknown column 'Arjun' in 'field list'
+30-05-2021 01:46:34,info,SQL object created
+30-05-2021 01:46:34,error,insert error : 1054 (42S22): Unknown column 'Arjun' in 'field list'
+30-05-2021 01:50:18,info,SQL object created
+30-05-2021 01:50:18,error,insert error : 1054 (42S22): Unknown column 'Arjun' in 'field list'
+30-05-2021 01:52:27,info,SQL object created
+30-05-2021 01:52:27,error,insert error : 1054 (42S22): Unknown column 'Arjun' in 'field list'
+30-05-2021 01:53:05,info,SQL object created
+30-05-2021 01:53:05,error,table not created error : 1050 (42S01): Table 'api' already exists
+30-05-2021 01:53:55,info,SQL object created
+30-05-2021 01:53:55,error,insert error : 1054 (42S22): Unknown column 'Arjun' in 'field list'
+30-05-2021 01:56:18,info,SQL object created
+30-05-2021 02:14:34,info,SQL object created
+30-05-2021 02:14:54,info,SQL object created
+30-05-2021 02:24:17,info,SQL object created
+30-05-2021 02:24:17,info,update successfully
+30-05-2021 02:27:47,info,SQL object created
+30-05-2021 02:29:55,info,SQL object created
+30-05-2021 02:29:55,info,deleted successfully
+30-05-2021 02:46:23,info,SQL object created
+30-05-2021 02:47:35,info,SQL object created
+30-05-2021 02:49:24,info,SQL object created
+30-05-2021 02:53:03,info,SQL object created
+30-05-2021 02:54:37,info,SQL object created
+30-05-2021 02:55:04,info,SQL object created
+30-05-2021 02:55:04,error,file dump error : [Errno 2] No such file or directory: 'home/arjun/Downloads/api.csv'
+30-05-2021 02:56:27,info,SQL object created
+30-05-2021 02:56:27,error,table not created error : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'id': 'INT(2)', 'name': 'VARCHAR(20)'})' at line 1
+30-05-2021 02:56:27,error,insert error : 1136 (21S01): Column count doesn't match value count at row 1
+30-05-2021 02:56:27,error,insert error : 1136 (21S01): Column count doesn't match value count at row 1
+30-05-2021 02:56:27,error,file dump error : name 'f_name' is not defined
+30-05-2021 02:57:27,info,SQL object created
+30-05-2021 02:57:27,error,table not created error : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'id': 'INT(2)', 'name': 'VARCHAR(20)'})' at line 1
+30-05-2021 02:57:27,error,insert error : 1146 (42S02): Table 'UCI.api1' doesn't exist
+30-05-2021 02:57:27,error,insert error : 1146 (42S02): Table 'UCI.api1' doesn't exist
+30-05-2021 02:57:27,error,file dump error : name 'f_name' is not defined
+30-05-2021 02:59:07,info,SQL object created
+30-05-2021 02:59:07,error,file dump error : name 'f_path' is not defined
+30-05-2021 02:59:22,info,SQL object created
+30-05-2021 02:59:22,error,file dump error : name 'f_path' is not defined
+30-05-2021 02:59:30,info,SQL object created
+30-05-2021 02:59:30,error,table not created error : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'id': 'INT(2)', 'name': 'VARCHAR(20)'})' at line 1
+30-05-2021 02:59:30,error,insert error : 1146 (42S02): Table 'UCI.api1' doesn't exist
+30-05-2021 02:59:30,error,insert error : 1146 (42S02): Table 'UCI.api1' doesn't exist
+30-05-2021 02:59:30,info,api.csv file data dumped to api1 table
+30-05-2021 02:59:48,info,SQL object created
+30-05-2021 02:59:48,error,table not created error : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'id': 'INT(2)', 'name': 'VARCHAR(20)'})' at line 1
+30-05-2021 02:59:48,error,insert error : 1146 (42S02): Table 'UCI.api11' doesn't exist
+30-05-2021 02:59:48,error,insert error : 1146 (42S02): Table 'UCI.api11' doesn't exist
+30-05-2021 02:59:48,info,api.csv file data dumped to api11 table
+30-05-2021 02:59:51,info,SQL object created
+30-05-2021 02:59:51,error,table not created error : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'id': 'INT(2)', 'name': 'VARCHAR(20)'})' at line 1
+30-05-2021 02:59:51,error,insert error : 1146 (42S02): Table 'UCI.api11' doesn't exist
+30-05-2021 02:59:51,error,insert error : 1146 (42S02): Table 'UCI.api11' doesn't exist
+30-05-2021 02:59:51,info,api.csv file data dumped to api11 table
+30-05-2021 03:00:56,info,SQL object created
+30-05-2021 03:00:56,info,api11 table created with columns: id INT(2),name VARCHAR(20)
+30-05-2021 03:00:56,error,insert error : 1136 (21S01): Column count doesn't match value count at row 1
+30-05-2021 03:00:56,error,insert error : 1136 (21S01): Column count doesn't match value count at row 1
+30-05-2021 03:00:56,info,api.csv file data dumped to api11 table
+30-05-2021 03:02:09,info,SQL object created
+30-05-2021 03:02:09,error,table not created error : 1050 (42S01): Table 'api11' already exists
+30-05-2021 03:02:09,info,inserted successfully
+30-05-2021 03:02:09,info,inserted successfully
+30-05-2021 03:02:09,info,api.csv file data dumped to api11 table
+30-05-2021 03:02:23,info,SQL object created
+30-05-2021 03:02:23,info,api1 table created with columns: id INT(2),name VARCHAR(20)
+30-05-2021 03:02:23,info,inserted successfully
+30-05-2021 03:02:23,info,inserted successfully
+30-05-2021 03:02:23,info,api.csv file data dumped to api1 table
+02-06-2021 21:14:44,info,SQL object created
+02-06-2021 21:15:09,info,SQL object created
+02-06-2021 21:15:18,info,SQL object created
+02-06-2021 21:15:53,info,SQL object created
+02-06-2021 21:34:49,info,SQL object created
+02-06-2021 21:35:35,info,SQL object created
+02-06-2021 21:35:35,error,connection error : 2005 (HY000): Unknown MySQL server host 'secure-connect-test.zip' (22)
+02-06-2021 21:36:17,info,SQL object created
+02-06-2021 21:36:17,error,connection error : 2005 (HY000): Unknown MySQL server host 'secure-connect-test.zip' (22)
+02-06-2021 21:36:26,info,SQL object created
+02-06-2021 21:36:26,error,connection error : 2005 (HY000): Unknown MySQL server host 'secure-connect-test.zip' (22)

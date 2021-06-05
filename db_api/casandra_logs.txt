@@ -1,0 +1,6 @@
+02-06-2021 21:42:01,info, cansader object created
+02-06-2021 21:42:01,info, Keyspace selected
+02-06-2021 21:42:02,info,test1 table created with columns: emp_id int PRIMARY KEY,emp_name text,emp_city text,emp_sal varint,emp_phone varint
+02-06-2021 21:46:41,info, cansader object created
+02-06-2021 21:46:41,info, Keyspace selected
+02-06-2021 21:46:41,error,table not created error : Table 'ineuron.test1' already exists
